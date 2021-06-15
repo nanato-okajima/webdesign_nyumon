@@ -85,9 +85,21 @@ img {
     background-repeat: no-repeat;
 }
 #home {
-    background-image: url(../images/main-bg.jpg);
+    background-image: url(../images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
+    background-blend-mode: luminosity;
     min-height: 100vh;
 }
 #home .page-title {
     text-transform: none;
+}
+
+/* NEWS
+------------------------------------*/
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+#news .page-title {
+    text-align: center;
 }
