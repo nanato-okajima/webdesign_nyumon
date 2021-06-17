@@ -109,7 +109,8 @@ img {
 }
 /* 記事部分 */
 article {
-    width: 74%;
+    width: 60%;
+    order: 2;
 }
 .post-info {
     position: relative;
@@ -154,9 +155,13 @@ article p {
 /* サイドバー */
 aside {
     width: 22%;
+    order: 3;
 }
 aside p {
     padding: 12px 10px;
+}
+.ad {
+    order: 1;
 }
 .sub-title {
     font-size: 1.375rem;
@@ -179,6 +184,25 @@ aside p {
 .sub-menu a:hover {
     color: #0bd;
 }
+
+/* MENU
+----------------------------------*/
+#menu {
+    background-image: url(../images/menu-bg.jpg);
+    min-height: 100vh;
+}
+.menu-content {
+    max-width: 560px;
+    margin-top: 10px;
+}
+.menu-content .page-title {
+    text-align: center;
+}
+.menu-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
 /* FOOTER
 -------------------------------------*/
 footer {
